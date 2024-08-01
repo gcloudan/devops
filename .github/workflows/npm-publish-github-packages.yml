@@ -15,9 +15,9 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm run lint-test
-      - run: npm run lint-unit
-      - run: npm run lint-e2e
+      - run: npm run test-lint
+      - run: npm run test-unit
+      - run: npm run test-e2e
 
   publish-gpr:
     needs: build
