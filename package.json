@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "start": "node src/app.js",
     "test-lint": "eslint .",
