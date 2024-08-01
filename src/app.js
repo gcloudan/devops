@@ -19,7 +19,7 @@ app.get('/', async (req, res) => {
 });
 
 mongoose.set('strictQuery', false);
-mongoose.connect(process.env.SERVER, {
+mongoose.connect(process.env.SERVER || "mongodb://localhost:27017", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
