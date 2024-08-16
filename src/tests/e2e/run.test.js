@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+const { test, expect } = require('@playwright/test');
 
 test('Title should match expected value', async ({ page }) => {
   await page.goto('http://127.0.0.1:3000');

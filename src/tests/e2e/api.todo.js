@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+const { test, expect } = require('@playwright/test');
 
 test('Backend Test - Auth EP is up', {
   tag: ['@ProjectName', '@Tests', '@API', '@BackendTest']

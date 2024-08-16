@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="0.567">
+  <testsuite name="Note API Integration Tests" errors="0" failures="0" skipped="0" timestamp="2024-08-16T02:03:45" time="0.525" tests="3">
+    <testcase classname="Note API Integration Tests should render the new note form on GET /new" name="Note API Integration Tests should render the new note form on GET /new" time="0.015">
+    </testcase>
+    <testcase classname="Note API Integration Tests should create a new note with POST /" name="Note API Integration Tests should create a new note with POST /" time="0.029">
+    </testcase>
+    <testcase classname="Note API Integration Tests should delete a note with DELETE /:id" name="Note API Integration Tests should delete a note with DELETE /:id" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>
